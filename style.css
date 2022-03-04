@@ -1,0 +1,26 @@
+#calculator {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2vw;
+    align-items: center;
+}
+
+#input {
+    width : 21vw;
+    height: 3vw;
+    background-color: lightgray;
+
+}
+
+.calcButtons {
+    width: 5vw
+}
+
+#clear {
+    width: 15.5vw;
+}
+
+#equals {
+    width:10.25vw;
+}
