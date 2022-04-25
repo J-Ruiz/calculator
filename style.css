@@ -1,26 +1,41 @@
-#calculator {
+#container{
     display: flex;
     flex-direction: column;
-    flex: 1;
-    gap: 2vw;
     align-items: center;
+    height:300px;
+}
+#calculator {
+    box-sizing: border-box;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background-color: blue;
+    padding:5px;
 }
 
-#input {
-    width : 21vw;
-    height: 3vw;
+
+#calcDisplay {
+    text-align: end;
+    width : 100%;
+    height: auto;
+    margin:10px 0px;
     background-color: lightgray;
+    font-size: 40px;
 
 }
 
 .calcButtons {
-    width: 5vw
+    width: 3.5vw;
+    height: auto;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size:20px;
+    padding: 5px;
 }
 
 #clear {
-    width: 15.5vw;
+    width: 76%;
+
 }
 
-#equals {
-    width:10.25vw;
-}
