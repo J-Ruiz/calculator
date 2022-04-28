@@ -2,40 +2,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height:300px;
-}
-#calculator {
-    box-sizing: border-box;
-    width: 20%;
-    height: 100%;
-    text-align: center;
     background-color: blue;
-    padding:5px;
+    width: 500px;
+    height:450px; /*need to fix this*/
+    padding:3%;
+    margin: auto;
 }
 
 
 #calcDisplay {
     text-align: end;
-    width : 100%;
-    height: auto;
-    margin:10px 0px;
+    margin-bottom: 20px;
+    height:60px;
     background-color: lightgray;
     font-size: 40px;
 
 }
 
 .calcButtons {
-    width: 3.5vw;
-    height: auto;
     background-color: red;
     color: white;
     font-weight: bold;
     font-size:20px;
-    padding: 5px;
+}
+
+button {
+    width: 24%;
+    padding:20px;
+    margin-top: 2px;
+}
+
+.flex-rows {
+    width: 400px;
 }
 
 #clear {
-    width: 76%;
-
+    width: 100%;
+    flex-basis: 100%;
 }
 
